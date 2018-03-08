@@ -6,6 +6,10 @@ function randomThrow() {
   return ['rock', 'paper', 'scissors'][randomIndex];
 }
 
+function pencil() {
+  console.log('scribble');
+}
+
 function gameReset() {
   playerScore = 0;
   computerScore = 0;
